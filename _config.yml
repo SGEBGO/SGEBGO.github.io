@@ -8,13 +8,13 @@ url: "https://sgebgo.github.io"
 
 # Secondary Parameters
 baseurl: 
-header-img: /img/home-bg.jpg
+header-img: img/home-bg.jpg
 headercolor: "#FFFFFF"
 logo: /img/logos/Project-Pages-New-Logo-Inverted.png
 
 # Tertiary Parameters
-github_username:  projectpages
-project_repository: project-pages
+github_username:  SGEBGO
+project_repository: SGEBGO.github.io
 disqus_shortname: project-pages
 g-analytics: UA-75881392-1
 altmetric: true
