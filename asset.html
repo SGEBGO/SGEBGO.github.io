@@ -24,7 +24,7 @@ header-img: "img/home-bg.jpg"
 
 
 {% for asset in site.data.assets %} {% if asset.visible == true %}
-    <tr>123
+    <tr>
 <td>{{asset.name}}</td><td><a href="{{asset.url}}" title="link">{{asset.date}}</a></td><td>{{asset.price}}</td><td>{{asset.trader}}</td>
     </tr>
 {% endif %}{% endfor %}
