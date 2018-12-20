@@ -11,7 +11,7 @@ header-img: "img/home-bg.jpg"
 
 |名字|日期|价格|经办人|
 | ----- | ----- | ----- | ----- |
-{% for asset in site.data.members %} {% if asset.visible == true %}
+{% for asset in site.data.asset %} {% if asset.visible == true %}
 |{{asset.name}}|<a href="{{asset.url}}" title="link">{{asset.date}}</a>|{{asset.price}}|{{asset.trader}}|
 {% endif %}{% endfor %}
 
