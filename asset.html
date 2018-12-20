@@ -1,0 +1,33 @@
+---
+layout: page
+title: "资产"
+description: "最后更新：2018/12/20"
+header-img: "img/home-bg.jpg"
+---
+<hr>
+
+
+#资产列表
+
+|名字|日期|价格|经办人|
+| ----- | ----- | ----- | ----- |
+{% for asset in site.data.members %} {% if asset.visible == true %}
+|{{asset.name}}|<a href="{{asset.url}}" title="link">{{asset.date}}</a>|{{asset.price}}|{{asset.trader}}|
+{% endif %}{% endfor %}
+
+
+#心愿单
+
+## 德国心脏病
+
+## 犯罪现场
+
+## 只言片语/奥德赛
+
+## 矮人矿坑
+
+## 卡坦岛/卡卡颂
+
+## 七个奇迹
+
+## 三国杀
