@@ -29,10 +29,14 @@ header-img: "img/home-bg.jpg"
 
 
 {% for asset in site.data.asset %} {% if asset.visible == true %}
+    <tr>
 <td>{{asset.name}}</td><td><a href="{{asset.url}}" title="link">{{asset.date}}</a></td><td>{{asset.price}}</td><td>{{asset.trader}}</td>
-{% endfor %}
+    </tr>
+{% endif %}{% endfor %}
 
 
+  </tbody>
+</table>
 #心愿单
 
 ## 德国心脏病
