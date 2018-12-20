@@ -3,9 +3,9 @@ layout:     post
 title:      游戏介绍——阿瓦隆
 author:     邱晨曦
 tags: 		guide party bluffing deduction
----
 subtitle:  	6-10人聚会游戏，难度1.78，时间30min
 category:   guide
+---
 
 
 
