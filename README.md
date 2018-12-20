@@ -1,2 +1,2 @@
-# SGEBGO.github.iothis is dev branch
+# SGEBGO.github.io
 this is release branch
