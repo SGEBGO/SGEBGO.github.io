@@ -15,7 +15,7 @@ header-img: "img/home-bg.jpg"
 	<h2>{{ member.role }}</h2>
 	
 	{% if member.email %}
-	<span class="social-share-googleplus"><a href="mailto:{{ member.url }}" title="email"><img src="{{ "/img/icons/url-icon.png"| prepend: site.baseurl }}" style="height:20px">E-mail</a></span>
+	<span class="social-share-googleplus"><a href="mailto:{{ member.email }}" title="email"><img src="{{ "/img/icons/url-icon.png"| prepend: site.baseurl }}" style="height:20px">E-mail</a></span>
 	{% endif %}
 	
 	</br>
