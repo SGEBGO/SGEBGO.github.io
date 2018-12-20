@@ -9,12 +9,6 @@ header-img: "img/home-bg.jpg"
 
 #资产列表
 
-|名字|日期|价格|经办人|
-| ----- | ----- | ----- | ----- |
-{% for asset in site.data.assets %} {% if asset.visible == true %}
-|{{asset.name}}|<a href="{{asset.url}}" title="link">{{asset.date}}</a>|{{asset.price}}|{{asset.trader}}|
-{% endif %}{% endfor %}
-
 <table>
   <thead>
     <tr>
@@ -29,7 +23,7 @@ header-img: "img/home-bg.jpg"
 
 
 {% for asset in site.data.assets %} {% if asset.visible == true %}
-    <tr>
+    <tr>123
 <td>{{asset.name}}</td><td><a href="{{asset.url}}" title="link">{{asset.date}}</a></td><td>{{asset.price}}</td><td>{{asset.trader}}</td>
     </tr>
 {% endif %}{% endfor %}
@@ -37,6 +31,7 @@ header-img: "img/home-bg.jpg"
 
   </tbody>
 </table>
+
 #心愿单
 
 ## 德国心脏病
