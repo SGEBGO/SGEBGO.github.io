@@ -1,30 +1,30 @@
 # Members
 
-- name: ·ë×ÓÁú
-  role: »á³¤
+- name: å†¯å­é¾™
+  role: ä¼šé•¿
   img: /img/member/lks.jpg
-  bio: ¸ºÔğĞ­»áÈÕ³£ÊÂÎñ¹ÜÀí¡£¸ºÔğĞ­»áÄÚÒ»ÇĞÊÂÎñµÄ×îÖÕ½âÊÍ¹¤×÷¡£
+  bio: è´Ÿè´£åä¼šæ—¥å¸¸äº‹åŠ¡ç®¡ç†ã€‚è´Ÿè´£åä¼šå†…ä¸€åˆ‡äº‹åŠ¡çš„æœ€ç»ˆè§£é‡Šå·¥ä½œã€‚
   email: fengzl@sge.com.cn
   visible: true
    
-- name: Çñ³¿êØ
-  role: ¸ÉÊÂ
+- name: é‚±æ™¨æ›¦
+  role: å¹²äº‹
   img: /img/member/lks.jpg
-  bio: ¸ºÔğĞ­»á²É¹ºÒÔ¼°²ÆÎñ¹¤×÷¡£
+  bio: è´Ÿè´£åä¼šé‡‡è´­ä»¥åŠè´¢åŠ¡å·¥ä½œã€‚
   email: qiucx@sge.com.cn
   visible: true
   
-- name: Áõ³¬
-  role: ¸ÉÊÂ
+- name: åˆ˜è¶…
+  role: å¹²äº‹
   img: /img/member/lks.jpg
-  bio: ¸ºÔğ»î¶¯²ß»®Óë¼¼ÊõÖ¸µ¼¡£
+  bio: è´Ÿè´£æ´»åŠ¨ç­–åˆ’ä¸æŠ€æœ¯æŒ‡å¯¼ã€‚
   email: liuchao@sge.com.cn
   visible: true
 
 
-- name: ÁÎÂ¶
-  role: ¸ÉÊÂ
+- name: å»–éœ²
+  role: å¹²äº‹
   img: /img/member/lks.jpg
-  bio: ¸ºÔğ»î¶¯²ß»®Óë¼¼ÊõÖ¸µ¼¡£
+  bio: è´Ÿè´£æ´»åŠ¨ç­–åˆ’ä¸æŠ€æœ¯æŒ‡å¯¼ã€‚
   email: liaolu@sge.com.cn
   visible: false
