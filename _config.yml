@@ -1,13 +1,13 @@
 # Site settings
-title: Board Game Organization Shanghai Gold Exchange
-description: "This hobby organization is supported by the labour union."
+title: Board Game Organization
+description: "Shanghai Gold Exchange"
 url: "https://sgebgo.github.io"
 
 
 
 
 # Secondary Parameters
-baseurl: "/"
+baseurl: 
 header-img: /img/home-bg.jpg
 headercolor: "#FFFFFF"
 logo: /img/logos/Project-Pages-New-Logo-Inverted.png
