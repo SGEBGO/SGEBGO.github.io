@@ -15,6 +15,23 @@ header-img: "img/home-bg.jpg"
 |{{asset.name}}|<a href="{{asset.url}}" title="link">{{asset.date}}</a>|{{asset.price}}|{{asset.trader}}|
 {% endif %}{% endfor %}
 
+<table>
+  <thead>
+    <tr>
+      <th>名字</th>
+      <th>日期</th>
+      <th>价格</th>
+      <th>第三轮</th>
+      <th>经办人</th>
+    </tr>
+  </thead>
+  <tbody>
+
+
+{% for asset in site.data.asset %} {% if asset.visible == true %}
+<td>{{asset.name}}</td><td><a href="{{asset.url}}" title="link">{{asset.date}}</a></td><td>{{asset.price}}</td><td>{{asset.trader}}</td>
+{% endfor %}
+
 
 #心愿单
 
